@@ -1,4 +1,4 @@
-$(document).on('ready page:load', function() {
+Blacklight.onLoad(function() {
   var terms = new Bloodhound({
     datumTokenizer: Bloodhound.tokenizers.obj.whitespace('value'),
     queryTokenizer: Bloodhound.tokenizers.whitespace,
